@@ -1,0 +1,17 @@
+#Cria um ambiente virtual
+python -m venv (nome_do_projeto)
+
+#Instala o Djano
+pip install django
+
+#Ativa o ambiente virtual caso esteja desativado
+. nome_do_projeto/Scripts/activate
+
+#cria o projeto na pasta que está instalado o django
+django-admin startproject (nome_do_projeto) .
+
+#Starta o projeto
+python manage.py runserver
+
+#O projeto foi criado na porta
+http://127.0.0.1:8000/
